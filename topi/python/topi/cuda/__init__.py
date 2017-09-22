@@ -11,3 +11,5 @@ from .reduction import schedule_reduce
 from .broadcast import schedule_broadcast
 from .softmax import schedule_softmax
 from .elemwise import schedule_elemwise
+from .fully_connected import schedule_fully_connected, schedule_fully_connected_with_bias
+from .pooling import schedule_global_avg_pool
